@@ -1,0 +1,32 @@
+body {
+    text-align: center;
+    background-image: url("https://wallpapercave.com/wp/wp9016146.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    color: rgb(0, 0, 0);
+}
+
+canvas {
+    border: 2px solid;
+    max-width: 100%;
+    margin: 20px auto;
+    display: block;
+    width: 30%;
+    height: auto;
+}
+#Purple, #Grey {
+    transition: transform 0.2s ease;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 10px;
+}
+#Purple:hover, #Grey:hover {
+    transform: scale(0.9);
+}
